@@ -23,7 +23,7 @@ class ConfigManagerServiceProvider extends ServiceProvider
     {
         // Publishing configs
         $this->publishes([
-            __DIR__.'/config/config.php' => config_path('config-manager.php'),
+            __DIR__.'/config/config.php' => config_path('configmanager.php'),
         ], 'config');
 
         // Publishing views

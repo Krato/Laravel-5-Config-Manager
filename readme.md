@@ -23,7 +23,7 @@ Publish package files:
 php artisan vendor:publish --provider="Infinety\ConfigManager\ConfigManagerServiceProvider"
 ```
 
-Edit `config/config-manager.php` config file to set the route and middleware, default to:
+Edit `config/configmanager.php` config file to set the route and middleware, default to:
 
 ```php
 <?php
