@@ -1,6 +1,6 @@
 ## Laravel 5 Config Manager
 
-With this package you can edit wor config php files in an easy way.
+With this package you can edit your Laravel config files in an easy way.
 
 ![Laravel 5 Config Manager](http://i.imgur.com/AVr7Jjl.png)
 
