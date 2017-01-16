@@ -1,0 +1,22 @@
+{
+    "name": "infinety-es/config-manager",
+    "description": "Package to edit and view config files",
+    "homepage": "http://infinety.es",
+    "keywords": ["infinety", "laravel", "config manager", "write", "edit"],
+    "require": {
+        "infinety-es/config": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Lagarda",
+            "email": "eric@infinety.es"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Infinety\\ConfigManager\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
