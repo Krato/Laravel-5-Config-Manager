@@ -41,7 +41,7 @@ class ConfigManagerServiceProvider extends ServiceProvider
         ], 'lang');
 
         // Loading routes
-        $config = $this->app['config']->get('config-manager.route', []);
+        $config = $this->app['config']->get('configmanager.route', []);
         $config['namespace'] = 'Infinety\ConfigManager';
         $router->group($config, function ($router) {
             $router->get('/{file?}', ['as' => 'configmanager.index', 'uses' => 'Controllers\ConfigManagerController@index']);
