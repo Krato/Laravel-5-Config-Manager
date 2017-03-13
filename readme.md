@@ -9,18 +9,27 @@ With this package you can edit your Laravel config files in an easy way.
 
 Install through composer:
 ```php
-composer require "infinety-es/configmanager"
+composer require infinety-es/config-manager
 ```
 
-Add this to `app/config/app.php` under the 'providers' key:
+Add this to `app/config/app.php` under the *providers* key:
 
 ```php
-'Infinety\Config\ConfigManagerServiceProvider',
+Infinety\Config\ConfigManagerServiceProvider::class,
 ```
 
 Publish package files:
 ```php
 php artisan vendor:publish --provider="Infinety\ConfigManager\ConfigManagerServiceProvider"
+```
+
+Create default layout with `php artisan make:auth` and edit `layouts/app.blade.php` and add a yield called *script* after *app.js*. Your **app.blade.php** should look like:
+
+```
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    @yield('scripts')
+</body>
 ```
 
 Edit `config/configmanager.php` config file to set the route and middleware, default to:
