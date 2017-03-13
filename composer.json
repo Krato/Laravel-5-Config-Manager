@@ -4,7 +4,7 @@
     "homepage": "http://infinety.es",
     "keywords": ["infinety", "laravel", "config manager", "write", "edit"],
     "require": {
-        "infinety-es/config": "^1.1"
+        "infinety-es/config": "^1.2"
     },
     "license": "MIT",
     "authors": [
