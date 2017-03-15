@@ -21,7 +21,7 @@ composer require infinety-es/config-manager
 Add this to `app/config/app.php` under the *providers* key:
 
 ```php
-Infinety\Config\ConfigManagerServiceProvider::class,
+Infinety\ConfigManager\ConfigManagerServiceProvider::class,
 ```
 
 Publish package files:

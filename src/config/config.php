@@ -11,7 +11,7 @@ return [
     |
     */
     'route' => [
-        'prefix' => 'dashboard/config',
+        'prefix'     => 'dashboard/config',
         'middleware' => [
             'web',
             'auth',
