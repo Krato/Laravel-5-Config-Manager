@@ -4,8 +4,8 @@ namespace Infinety\ConfigManager;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Infinety\ConfigManager\Helpers\ConfigHelper;
 use Infinety\Config\ConfigServiceProvider;
+use Infinety\ConfigManager\Helpers\ConfigHelper;
 
 class ConfigManagerServiceProvider extends ServiceProvider
 {

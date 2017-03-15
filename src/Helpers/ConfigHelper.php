@@ -48,6 +48,7 @@ class ConfigHelper extends Repository
         $configFile = fopen(config_path()."/$filename.php", 'w');
         fwrite($configFile, "<?php\nreturn ".$this->process($data).';');
     }
+
     /**
      * Save a configuration parameter to an existing config file.
      *
@@ -70,6 +71,7 @@ class ConfigHelper extends Repository
         $writeConfig = new Rewrite();
         $writeConfig->toFile($configFile, [$key => $value]);
     }
+
     /**
      * Process and format data to be saved to the config file.
      *

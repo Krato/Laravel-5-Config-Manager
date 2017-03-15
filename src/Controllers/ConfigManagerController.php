@@ -67,7 +67,7 @@ class ConfigManagerController extends Controller
                 $this->createTableFromArray($configData[$key], ($parent) ? $parent.'.'.$key : $key);
             } else {
                 $this->formattedValues[] = [
-                    'key' => ($parent) ? $parent.'.'.$key : $key,
+                    'key'   => ($parent) ? $parent.'.'.$key : $key,
                     'value' => $configValue,
                 ];
             }
@@ -88,8 +88,8 @@ class ConfigManagerController extends Controller
             if (!is_dir($file->getRealpath())) {
                 if ($this->accept($file)) {
                     $fileInfo = [
-                        'name' => trim($file->getBasename('.php')),
-                        'path' => $file->getPath().'/'.$file->getBasename(),
+                        'name'   => trim($file->getBasename('.php')),
+                        'path'   => $file->getPath().'/'.$file->getBasename(),
                         'parent' => ($file->getPathInfo()->getBasename() == 'config') ? null : $this->getConfigPathFolder($file->getPath()),
                     ];
                     $this->configFiles->push((object) $fileInfo);
