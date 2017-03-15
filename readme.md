@@ -1,8 +1,14 @@
 ## Laravel 5 Config Manager
 
+[![Latest Stable Version](https://poser.pugx.org/infinety-es/config-manager/v/stable?format=flat-square)](https://packagist.org/packages/infinety-es/config-manager)
+[![Total Downloads](https://poser.pugx.org/infinety-es/config-manager/downloads?format=flat-square)](https://packagist.org/packages/infinety-es/config-manager)
+[![StyleCI](https://styleci.io/repos/79101838/shield)](https://styleci.io/repos/79101838)
+[![License](https://img.shields.io/packagist/l/infinety-es/config-manager.svg?style=flat-square)](https://packagist.org/packages/infinety-es/config-manager)
+
 With this package you can edit your Laravel config files in an easy way.
 
 ![Laravel 5 Config Manager](http://i.imgur.com/AVr7Jjl.png)
+
 
 
 ### Usage Instructions
@@ -95,6 +101,8 @@ Mit
 ## Author
 
 [Eric Lagarda](https://github.com/Krato)
+
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Krato/Laravel-5-Config-Manager/issues)
 
 
 Hope you like it!
