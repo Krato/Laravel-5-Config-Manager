@@ -172,7 +172,7 @@
 				$input.attr('disabled', false);
 				var newValue = $input.val();
 				var key = $popover.parent().find('button').data('key');
-				$row = $("#key_"+key);
+				var $row = $("#key_"+key.replace('.', '\\.'));
 				
 
 				// CLose popover
